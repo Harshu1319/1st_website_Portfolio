@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&family=Satisfy&display=swap');
+body{
+    padding: 0px;
+    margin:0px;
+    background-color: black;
+    color:white;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:10px;
+    background-color: rgb(170, 141, 157);
+}
+
+.a:hover{
+    color:blue;
+}
+.navbar-left{
+    padding-left:20px;
+
+}
+.navbar-right{
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+.abc{
+    margin:20px;
+    padding:7px;
+    color:white;
+
+}
+.home{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height:90vh;
+
+}
+.shs{
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: bold;
+    color:black;
+}
+img{
+    height: 400px;
+}
+.home-right{
+    padding-left:100px;
+    width:50vw;
+    
+}
+.home-left{
+    padding-left:200px;
+    text-align: right;
+    width:50vw;
+}
+.h1{
+    font-size: 40px;
+    font-weight: bold;
+    color:rgb(140, 127, 13);
+    font-family: 'Satisfy', cursive;
+}
+.p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+.services{
+    text-align: center;
+}
+.sh1{
+    color:rgb(140, 127, 13);
+    font-size:30px;
+    text-decoration: underline;
+}
+.sub-services{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin:30px;  
+    padding:20px;   
+}
+.services1{
+    border:2px white solid;
+    padding:20px;
+    margin:30px;
+}
+h3{
+    text-decoration: underline;
+}
+.contact-info{
+    text-align: center;
+    margin:70px;
+}
+.ch3{
+    color:rgb(140, 127, 13);
+    font-size:30px;
+    
+}
+.img1{
+    height:30px;
+    padding: 12px;
+}
